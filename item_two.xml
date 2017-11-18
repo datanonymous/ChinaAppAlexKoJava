@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        style="@android:style/Widget.Material.Light.ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarStyle="insideOverlay"
+        tools:context="com.example.alex.chinaappalexkojava.MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp">
+
+            <Button
+                android:id="@+id/server"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonTapped"
+                android:text="Server!" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fu yar!" />
+
+            <Button
+                android:id="@+id/doyouhaveamenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonTapped"
+                android:text="Do you have a menu?" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yo chai dan ma?" />
+
+            <Button
+                android:id="@+id/hiwearereadytoorder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonTapped"
+                android:text="Hi, we are ready to order" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fu oo yuan dian sai" />
+
+            <Button
+                android:id="@+id/abottleoficedbeerplease"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonTapped"
+                android:text="A bottle of iced beer please" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lai y ping pee jeow" />
+
+            <Button
+                android:id="@+id/thebillhowmuchmoney"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonTapped"
+                android:text="The bill, how much money?" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mai dan, dua showw chen?" />
+
+            <Button
+                android:id="@+id/delicious"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonTapped"
+                android:text="Delicious!" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hao cheh!" />
+
+            <Button
+                android:id="@+id/iamfull"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonTapped"
+                android:text="I am full" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wo chi bow la" />
+
+            <Button
+                android:id="@+id/sweetandsourpork"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonTapped"
+                android:text="Sweet and sour pork" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tang su lee jee" />
+
+            <Button
+                android:id="@+id/kungpaochicken"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonTapped"
+                android:text="Kung Pao Chicken" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gong bao jee diung" />
+
+            <Button
+                android:id="@+id/beanswithpork"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonTapped"
+                android:text="Fried beans with minced pork" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gan bian see jee dough" />
+
+            <Button
+                android:id="@+id/potatopeppereggplant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonTapped"
+                android:text="Fried potato, green pepper, and eggplant" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dee san she ann" />
+
+            <Button
+                android:id="@+id/wewanttodrinktea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We want to drink tea" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wo men yow huh cha" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
