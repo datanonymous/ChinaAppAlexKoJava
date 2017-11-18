@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        style="@android:style/Widget.Material.Light.ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarStyle="insideOverlay"
+        tools:context="com.example.alex.chinaappalexkojava.MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp">
+
+            <Button
+                android:id="@+id/ilostmypassport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonTapped"
+                android:text="I lost my passport" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wo de who jow tiu la" />
+
+            <Button
+                android:id="@+id/abadheadache"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonTapped"
+                android:text="A bad headache" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tow hun tongue" />
+
+            <Button
+                android:id="@+id/ithurtsbadlyhere"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonTapped"
+                android:text="It hurts badly here" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jar hun tongue" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
