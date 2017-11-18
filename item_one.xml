@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        style="@android:style/Widget.Material.Light.ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarStyle="insideOverlay"
+        tools:context="com.example.alex.chinaappalexkojava.MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp">
+
+            <Button
+                android:id="@+id/canyouspeakenglish"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonTapped"
+                android:text="Can you speak english?" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="1"
+                android:text="Ni huy sho ing when ma?" />
+
+            <Button
+                android:id="@+id/wheresthebathroom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="2"
+                android:onClick="buttonTapped"
+                android:text="Where's the bathroom?" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="3"
+                android:text="Kuh suo jai nar?" />
+
+            <Button
+                android:id="@+id/whatsup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonTapped"
+                android:text="What's up?" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gan man na?" />
+
+            <Button
+                android:id="@+id/iamgoingtothisplace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonTapped"
+                android:text="(To taxi driver) I am going to this place" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wo chew jar" />
+
+            <Button
+                android:id="@+id/stophereplease"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonTapped"
+                android:text="Stop here please" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ting jar ba" />
+
+            <Button
+                android:id="@+id/goodmorning"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonTapped"
+                android:text="Good Morning!  Morning!" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Zao an! Zao shang hao! Zao!" />
+
+            <Button
+                android:id="@+id/goodnight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonTapped"
+                android:text="Good night!" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wa an!" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
